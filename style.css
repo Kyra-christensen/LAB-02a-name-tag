@@ -1,4 +1,13 @@
-
+.header {
+    text-align: center;
+    color:indianred;
+    margin-bottom: 10%;
+    border-style: dotted;
+    border-color: black;
+    border-width: 2px;
+    width:500px;
+    margin-left: 245px;
+}
 .box { 
     background-color: red;
     width: 250px;
@@ -34,3 +43,14 @@
     padding-bottom:5%;
     font-family:"quicksand";  
 }
+
+.footer {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.footer-text {
+    color:indianred;
+
+}
+
