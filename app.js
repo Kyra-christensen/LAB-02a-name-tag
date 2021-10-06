@@ -6,5 +6,6 @@ const nameDisplay = document.getElementById('name-display');
 updateButton.addEventListener('click', () => {
     const newName = nameInput.value;
     nameDisplay.textContent = newName;
-    console.log('you clicked the button');
+    console.log('you clicked the button' + ', ' + newName + '.');
 });
+
